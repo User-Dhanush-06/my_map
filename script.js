@@ -3,7 +3,9 @@
  
    navigator.geolocation.getCurrentPosition(successLocation,
     errorLocation, {
-        enableHighAccuracy:true
+        enableHighAccuracy:true,
+        maximumAge: 0,  // don’t use cached location
+        timeout: 10000  // wait up to 10 seconds
     })
 
     function successLocation(position){
