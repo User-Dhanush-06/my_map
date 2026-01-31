@@ -1,4 +1,4 @@
- mapboxgl.accessToken = 'pk.eyJ1IjoidXNlci1kaGFudXNoIiwiYSI6ImNtZDA3dm9zYzBwMXMybHFuMWdsd2t4MTYifQ.BoptndpbCXEVvWxHc1t1xg';
+ mapboxgl.accessToken = '';
 
  
    navigator.geolocation.getCurrentPosition(successLocation,
@@ -62,4 +62,5 @@
             });
         });
     }
+
 
